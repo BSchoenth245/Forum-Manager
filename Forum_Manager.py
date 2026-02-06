@@ -56,9 +56,7 @@ ROLE_PRIORITY_THRESHOLD: Dict[str, int] = {
 # type "feature": ignores priority, notifies immediately
 FORUM_CONFIG = {
     1469067394596208792: {"type": "bug", "name": "Bug Reports"},
-    1469067452158705891: {"type": "bug", "name": "Server Issues"},
-    # REPLACE THIS ID with your new Feature Forum ID
-    1234567890123456789: {"type": "feature", "name": "Feature Ideas"} 
+    1469067452158705891: {"type": "bufeature"},
 }
 
 MONITORED_FORUMS = list(FORUM_CONFIG.keys())

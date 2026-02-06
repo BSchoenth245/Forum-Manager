@@ -32,7 +32,7 @@ TAG_TO_ROLE: Dict[str, Union[str, List[str]]] = {
     "ui/ux request": "Website Dev",
     "new functionality": "Application Dev",
     "performance": ["Application Dev", "Website Dev"],
-    "suggestion": "Application Dev" 
+    "suggestion": "Application Dev",
 }
 
 # Priority levels for Bug Forums
@@ -56,7 +56,7 @@ ROLE_PRIORITY_THRESHOLD: Dict[str, int] = {
 # type "feature": ignores priority, notifies immediately
 FORUM_CONFIG = {
     1469067394596208792: {"type": "bug", "name": "Bug Reports"},
-    1469067452158705891: {"type": "bufeature"},
+    1469067452158705891: {"type": "feature"},
 }
 
 MONITORED_FORUMS = list(FORUM_CONFIG.keys())

@@ -47,7 +47,7 @@ ROLE_PRIORITY_THRESHOLD: Dict[str, int] = {
     "Application Dev": 2,  # Only notify for Blocker and High Priority
     "Website Dev": 2,      # Only notify for Blocker and High Priority
     "Hardware Dev": 2,     # Only notify for Blocker and High Priority
-    "test": 4,             # Test role: notify for everything"
+    "test": 2,             # Test role: notify for everything"
     # Set to 4 if you want to be notified for ALL priorities including Low
 }
 

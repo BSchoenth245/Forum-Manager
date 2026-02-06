@@ -26,7 +26,6 @@ TAG_TO_ROLE: Dict[str, Union[str, List[str]]] = {
     "web bug": "Website Dev",
     "server bug": ["Website Dev", "Application Dev"],
     "hardware/firmware": "Hardware Dev",
-    "test": "test",
     
     # --- FEATURE REQUEST TAGS (New!) ---
     "ui/ux request": "Website Dev",
